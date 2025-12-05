@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script prints PID and full command path for all bash processes
 pgrep -a bash | while read pid cmd rest; do
     echo "$pid $cmd"
