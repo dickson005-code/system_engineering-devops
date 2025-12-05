@@ -1,7 +1,3 @@
 #!/usr/bin/env bash
 # This script prints PID and full path of all bash processes
-pgrep -a bash | while read pid fullcmd; do
-    # Extract only the executable path from the full command
-    exe=$(echo "$fullcmd" | awk '{print $1}')
-    echo "$pid $exe"
-done
+pgrep -a bash | awk '{print $1, $2}'
