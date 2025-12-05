@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script lists all processes with UID and full command for all users
+# This script lists all running processes showing only the UID
 
-ps -eo uid,args
+ps -e -o uid
