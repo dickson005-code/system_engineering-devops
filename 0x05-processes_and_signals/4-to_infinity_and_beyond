@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script prints "To infinity and beyond" indefinitely, pausing 2 seconds between prints
 
 while true; do
