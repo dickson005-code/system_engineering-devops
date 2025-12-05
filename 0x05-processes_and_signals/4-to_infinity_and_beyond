@@ -1,0 +1,7 @@
+#!/bin/bash
+# This script prints "To infinity and beyond" indefinitely, pausing 2 seconds between prints
+
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
